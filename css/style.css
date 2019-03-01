@@ -1,0 +1,131 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/**************** CSS STYLE ICONS ****************/
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+section #services h2 {
+  margin: 80px 0px 40px;
+  color: #fff;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+section #services li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+section #services li div {
+  width: 120px;
+  height: 120px;
+  color: #74d4b3;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 120px;
+  background-color: #3677BC;
+  transition: all 0.5s ease;
+}
+section #services li a {
+  color: #fff;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+section #services li span {
+  width: 120px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: #6c757d ;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.youtube{
+  background-color: red !important;
+}
+
+.twitter {
+background-color: #1DA1F2 !important;
+}
+.facebook  {
+background-color: #3B5998 !important;
+}
+.gmail {
+background-color: #E94136 !important;
+}
+.insta {
+background-color: #FFBF5E !important;
+}
+
+/********** PERSONAL STYLE ************/
+.style-text {
+  font-size: 1.2rem;
+}
+/*
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+  display: contents;
+}
+*/
