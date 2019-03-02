@@ -137,3 +137,8 @@ hr{
   overflow:scroll;
   height:500px;
 }
+
+.font-info{
+  font-family: 'Handlee', cursive;
+  color: whitesmoke;
+}
