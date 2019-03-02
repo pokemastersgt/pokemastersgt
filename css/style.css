@@ -124,8 +124,16 @@ background-color: #FFBF5E !important;
 .style-text {
   font-size: 1.2rem;
 }
-/*
-nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
-  display: contents;
+
+.font-hall{
+  font-family: 'Shadows Into Light', cursive;
+  color: whitesmoke;
 }
-*/
+hr{
+	border: 2px white solid;
+}
+
+#div1 {
+  overflow:scroll;
+  height:500px;
+}
